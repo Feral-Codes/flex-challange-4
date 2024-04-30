@@ -15,7 +15,15 @@ img { max-width: 100%; }
 
 /* typography */
 h1 {
-   
+   font-family: 'Playfair', serif;
+   font-weight: 800;
+   font-size: 3.75rem;
+   color: #824936;
+}
+
+.hero__text {
+   font-weight: 300;
+   font-size: 1.125rem;
 }
 
 /* utilities */
@@ -24,9 +32,19 @@ h1 {
    margin: 0 auto;
 }
 
+.row { display: flex; }
+
+.col { flex-direction: column; }
+
+.center--text { text-align: center; }
 
 /* sections */
 header {
    background-color: #F3EED9;
    min-height: 660px;
 }
+
+header h1, 
+header p { margin: .225rem 0; 
+}
+
