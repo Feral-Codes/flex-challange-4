@@ -1,0 +1,32 @@
+/* default */
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+body {
+   margin: 0;
+   font-family: 'Roboto', sans-serif;
+   font-size: 1.3rem;
+}
+
+a { text-decoration: none; }
+
+img { max-width: 100%; }
+
+/* typography */
+h1 {
+   
+}
+
+/* utilities */
+.container {
+   max-width: 1128px;
+   margin: 0 auto;
+}
+
+
+/* sections */
+header {
+   background-color: #F3EED9;
+   min-height: 660px;
+}
