@@ -1,0 +1,29 @@
+@media (max-width: 500px) {
+   br {
+      display: none;
+   }
+}
+
+@media (min-width: 767px) {
+   .row { 
+      display: flex;
+      justify-content: space-around;
+      gap: 3rem;
+   }
+   
+   .row--reverse {
+      display: flex;
+      flex-direction: row-reverse;
+      width: 100%;
+   }
+   
+   .hero__col{
+      flex-direction: column;
+   }
+   
+   .col { 
+      flex-direction: column;
+      width: 100%;
+   }
+
+}
